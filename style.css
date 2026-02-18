@@ -171,6 +171,48 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+/* Article Section */
+.info-article {
+    padding: 60px 0;
+    background-color: #f0f4f8; /* גוון כחלחל-אפור עדין */
+}
+
+.info-article h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.article-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.article-column {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.article-column h3 {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.article-column ul, .article-column ol {
+    padding-right: 20px;
+}
+
+.article-column li {
+    margin-bottom: 12px;
+}
+
 /* Contact Section */
 .contact-section {
     padding: 60px 0;
